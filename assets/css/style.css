@@ -38,7 +38,8 @@ h2 {
 }
 
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -75,8 +76,9 @@ h2 {
 }
 
 
-#cover-text, #cover-text h2 {
-    color:#fff;
+#cover-text,
+#cover-text h2 {
+    color: #fff;
 
 }
 
@@ -93,7 +95,7 @@ h2 {
 
     animation-name: hero-zoom;
     animation-duration: 5s;
-    animation-fill-mode:forwards;
+    animation-fill-mode: forwards;
 
 }
 
@@ -129,7 +131,7 @@ h2 {
     right: 150px;
 
     position: absolute;
-}   
+}
 
 /* club ethos */
 
@@ -141,7 +143,7 @@ h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    
+
 }
 
 
@@ -149,13 +151,13 @@ h2 {
     padding-top: 30px;
     width: 33%;
     float: right;
-   
+
 }
 
 #center-about {
     width: 33%;
     margin: 0 auto;
-    
+
 }
 
 hr {
@@ -215,11 +217,11 @@ hr {
 
 /* event times */
 #times {
-    background-image: url('../images/dublin-city.webp') ;
+    background-image: url('../images/dublin-city.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width:100%;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -238,4 +240,27 @@ hr {
 
 #times h2 {
     color: #fafafa;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%; 
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+
 }
